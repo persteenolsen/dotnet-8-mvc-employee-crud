@@ -37,7 +37,7 @@ dotnet run
 
 Create a self contained build for production at the remote server / traditionel web hotel
 
-dotnet publish employeecrud.csproj --configuration Release --runtime win-x86 --self-contained
+dotnet publish mvcwebapp.csproj --configuration Release --runtime win-x86 --self-contained
 
 Upload the build to remote server
 
