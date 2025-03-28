@@ -9,13 +9,15 @@
     <h1 class="alert-success">@TempData["ResultOk"]</h1>
 }
 
+
 <div class="container shadow p-5">
 
-    <h1 class="text-center mb-3">CRUD Operations Using .NET Core 8 & Microsoft.EntityFrameworkCore </h1>
+    <h2 class="text-center mb-3">.NET 8 MVC Web application serving CRUD</h2>
 
     <div class="col mb-3">
         <a asp-controller="Employee" asp-action="Create" class="btn btn-lg btn-primary"><i class="bi bi-file-plus-fill"></i>Add Employee</a>
     </div>
+    <div class="autoscrollable-wrapper">
     <table class="table table-responsive table-bordered table-hover">
         <thead>
             <tr>
@@ -53,4 +55,5 @@
             }
         </tbody>
     </table>
+    </div>
 </div>
