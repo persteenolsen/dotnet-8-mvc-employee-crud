@@ -18,6 +18,20 @@ namespace MvcWebApp.Controllers
             return View();
         }
 
+        
+    
+        public IActionResult About()
+        {
+           return View();
+        }
+    
+    
+       public IActionResult Me()
+        {
+           return View();
+        }
+    
+
         public IActionResult Privacy()
         {
             return View();
