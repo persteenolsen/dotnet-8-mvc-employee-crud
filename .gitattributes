@@ -1,7 +1,6 @@
-*.csharp linguist-detectable=true
-*.csharp linguist-language=csharp
 *.css linguist-detectable=false
 *.js linguist-detectable=false
 *.html linguist-detectable=false
+*.csharp linguist-detectable=true
 
   
