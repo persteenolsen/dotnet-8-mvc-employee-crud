@@ -2,7 +2,7 @@
 
 ASP.NET Core MVC Web Application by .NET 8 serving CRUD of Employees towards a MS SQL Database
 
-Last updated:
+Last updated
 
 - 30-08-2025
 
